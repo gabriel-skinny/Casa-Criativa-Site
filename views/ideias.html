@@ -1,0 +1,46 @@
+{% block title %}
+    <title>Ideias - Casa Criativa</title>
+{% endblock %}
+
+
+{% extends "layout.html" %}
+
+{% set bodyId = "page-ideias" %}
+
+{% block content %}
+<header>
+    <a href="/">
+        <img src = "https://dewey.tailorbrands.com/production/brand_version_mockup_image/354/2811275354_224fda69-c3aa-4062-94c5-c056c5d9d4c3.png?cb=1585341042" alt="Imagem logomarca">
+    </a>
+    <nav>
+        <li><a href="/">Inicio</a></li>
+        <li><a href="ideias/">ideias</a></li>
+        <li><a class="button" href="#" onclick="onOff()" >Nova ideia</a></li>
+    </nav>
+</header>
+
+<section id="title">
+    
+    <p>Em exibição </p>
+    <h1>Ideias</h1>
+
+</section>
+
+<main>
+        
+    <section id="Ideias">
+        
+        {% include "all ideias.html" %}
+            
+    </section>
+
+
+</main>
+
+<footer id="fotter">
+        Criado por<a href="https://www.youtube.com/ " target="_blank"> Gabriel . C</a> 
+</footer></div>
+{% endblock %}
+    
+    
+    

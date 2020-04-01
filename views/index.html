@@ -1,0 +1,53 @@
+
+
+{% extends "layout.html" %}
+
+{% block content %}
+
+<section id="intro">
+    <header>
+        <img src = "https://dewey.tailorbrands.com/production/brand_version_mockup_image/354/2811275354_224fda69-c3aa-4062-94c5-c056c5d9d4c3.png?cb=1585341042" alt="Imagem logomarca">
+    </header>
+   
+
+    <main>
+
+        <p>
+            Ficar em Casa
+        </p>
+        
+        <p>
+            Por isso, iremos catalogar ideias,brincadeiras,jogos, filmes,
+            cursos,dicas e tudo quer for necessario apra tornar 
+            esse momenteo mais interessante.
+
+        </p>
+
+        <p >
+            Comece clicando em ver ideias para ver as 
+            ideias cadastradas e contribua adcionando a sua ideia
+        </p>
+   
+    </main>
+    
+   <sections id="buttons">
+
+        <button onclick="onOff()">+ Adicionar Ideia</button>
+        <a href="/ideias" class="button">Ver ideias</a>
+
+    </sections>
+    
+    
+    <footer id="fotter">
+        Criado por<a href="https://www.youtube.com/" target="_blank"> Gabriel . C</a> 
+    </footer>
+
+</section>
+
+<section id="last">
+
+    {% include "all ideias.html" %}
+    
+</section>
+
+{% endblock %}
