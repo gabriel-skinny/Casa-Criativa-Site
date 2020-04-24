@@ -215,7 +215,6 @@ header img{
 #modal .content h1{
 
     text-align: center;
-    color: black;
     text-transform: uppercase;
 }
 
@@ -352,7 +351,7 @@ form a:hover{
 
 #page-ideias nav li a.button{
     margin-top: 32px;
-    color:white;
+    color:white; 
 }
 
 #page-ideias nav li:last-child{
