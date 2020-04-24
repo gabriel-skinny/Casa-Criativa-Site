@@ -3,4 +3,4 @@ Um site que armazena ideias do que fazer durante a quarentena. É um site bem si
   No site você consegue adicionar novas ideias, e consegue visualizar as ideias que ja foram postas la.
 
 
-  ![Legenda](file:///C:/Users/Gabriel/Desktop/web.pic1.png)
+  ![](images/Homepic1)
